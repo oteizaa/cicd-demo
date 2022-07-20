@@ -3,7 +3,7 @@ kind: VirtualServer
 metadata:
   name: juice-shop
 spec:
-  host: app-20.120.44.255.nip.io
+  host: app-20-120-44-255.nip.io
   tls:
     secret: juice-shop-secret
   ingressClassName: andrew-ns-nginx-ingress  
