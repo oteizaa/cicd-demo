@@ -6,6 +6,8 @@ spec:
   host: app-20-120-44-255.nip.io
   tls:
     secret: juice-shop-secret
+  policies:
+    - name: nap-policy
   ingressClassName: andrew-ns-nginx-ingress  
   upstreams:
   - name: juice-shop
